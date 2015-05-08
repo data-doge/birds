@@ -14,7 +14,7 @@ $(document).ready(function () {
       $('body').append($bird);
     }
 
-    var birdBalloon = setInterval(function() {
+    var birdBalloon = setInterval(function () {
       i < max ? i++ : i = min;
       $('img').width(i);
     }, 1);
