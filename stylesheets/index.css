@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: crosshair;
+ }
+body {
+  font-family: 'Raleway';
+  text-align: center;
+  color: black;
+}
+header, footer {
+  position: fixed;
+  width: 100%;
+}
+header {
+  top: 0;
+}
+footer {
+  bottom: 0;
+}
+h1 {
+  font-size: 150px;
+  margin: 0;
+  text-align: center;
+}
+img {
+  z-index: -100;
+  width: 1px;
+}
+span {
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+span:hover {
+  background-image: url('./../media/bird.jpg');
+}
