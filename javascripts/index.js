@@ -10,13 +10,13 @@ $(document).ready(function () {
     y++;
 
     for (var x = 0; x < y; x++) {
-      var $bird = $("<img src='./media/bird.jpg'/>");
+      var $bird = $("<img class='bird' src='./media/bird.jpg'/>");
       $('body').append($bird);
     }
 
     var birdBalloon = setInterval(function () {
       i < max ? i++ : i = min;
-      $('img').width(i);
+      $('.bird').width(i);
     }, 1);
 
     var scrollDown = setInterval(function() {
