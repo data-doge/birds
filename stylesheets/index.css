@@ -21,7 +21,7 @@ footer {
   bottom: 0;
 }
 h1 {
-  font-size: 150px;
+  font-size: 125px;
   margin: 0;
   text-align: center;
 }
@@ -38,10 +38,10 @@ span:hover {
   background-image: url('./../media/bird.jpg');
 }
 a {
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 10px;
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
   z-index: 100;
   color: black;
@@ -52,8 +52,8 @@ a:hover {
 }
 #forkme {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 /*!; Animate.css - http://daneden.me/animate; Licensed under the MIT license - http : //opensource.org/licenses/MIT;; Copyright (c) 2015 Daniel Eden; */
